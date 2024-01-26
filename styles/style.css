@@ -1,0 +1,39 @@
+html {
+  font-size: 10px; /* px means "pixels": the base font size is now 10 pixels high */
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+h1 {
+  font-size: 60px;
+  text-align: center;
+}
+
+p,
+li {
+  font-size: 16px;
+  line-height: 2;
+  letter-spacing: 1px;
+}
+html {
+  background-color: #D14D31 ;
+}
+body {
+  width: 600px;
+  margin: 0 auto;
+  background-color: #0c34ad;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+h1 {
+  margin: 0;
+  padding: 20px 0;
+  color: #a02807;
+  text-shadow: 4px 5px 2px black;
+}
+img {
+  max-width: 100%; /* Ensures the image doesn't exceed the width of its container */
+  height: auto; /* Maintains the image's aspect ratio */
+  display: block; /* Removes any extra spacing below the image */
+  margin-top: 20px; /* Adjust as needed */
+}
+
