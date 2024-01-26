@@ -1,4 +1,10 @@
+const myImage = document.querySelector("img");
 
-const myHeading = document.querySelector("h1");
-myHeading.textContent = "Hello world!";
-
+myImage.onclick = () => {
+  const mySrc = myImage.getAttribute("src");
+  if (mySrc === "images/Cathedral-in-Quito-Ecuador.png") {
+    myImage.setAttribute("src", "images/Cathedral-in-Quito-Ecuador.png");
+  } else {
+    myImage.setAttribute("src", "images/Cathedral-in-Quito-Ecuador.png");
+  }
+};
